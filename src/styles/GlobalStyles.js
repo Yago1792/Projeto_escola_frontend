@@ -40,7 +40,7 @@ export default createGlobalStyle`
     list-style: none;
   }
 
-  body .Toastify .Toastify__toast-container .Toastify__toast--success {
+  /* body .Toastify .Toastify__toast-container .Toastify__toast--success {
     background: ${colors.successColor};
     color: #000;
   }
@@ -48,7 +48,7 @@ export default createGlobalStyle`
   body .Toastify .Toastify__toast-container .Toastify__toast--error {
     background: ${colors.errorColor};
     color: #000;
-  }
+  } */
 `;
 
 export const Container = styled.section`

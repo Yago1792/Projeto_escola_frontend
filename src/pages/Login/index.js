@@ -22,20 +22,17 @@ function Login() {
   function handleClick(e) {
     e.preventDefault();
     dispatch(
-      // Disparador de açoes. nesse, disparada uma acao chamada BOTAO_CLICADO
+      // Disparador de açoes.
       exampleActions.clicaBotaoRequest()
     );
   }
 
   return (
     <Container>
-      <Title>Titulo</Title>
+      <Title>Header</Title>
       <Paragrafo>Lorem ipsum dolor sit amet.</Paragrafo>
-      <a href="" style={{ display: 'block' }}>
-        Link
-      </a>
       <button type="button" onClick={handleClick}>
-        Enviar
+        Click to change the status!
       </button>
     </Container>
   );

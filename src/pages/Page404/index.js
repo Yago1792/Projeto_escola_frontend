@@ -5,7 +5,8 @@ import { Container } from '../../styles/GlobalStyles';
 export default function Page404() {
   return (
     <Container>
-      <h1>Essa página não existe.</h1>
+      <h1>ERROR 404</h1>
+      <h1>This page does not exist.</h1>
     </Container>
   );
 

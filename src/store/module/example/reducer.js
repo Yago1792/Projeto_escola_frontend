@@ -1,3 +1,4 @@
+import { toast } from 'react-toastify';
 import * as types from '../types';
 
 const initialState = {
@@ -9,19 +10,19 @@ const initialState = {
 export default function (state = initialState, action) {
   switch (action.type) {
     case types.BOTAO_CLICADO_SUCCESS: {
-      console.log('Yees! Success =D');
+      toast.success("Yeah! It's worked!");
       const newState = { ...state };
       newState.botaoClicado = !newState.botaoClicado;
       return newState;
     }
 
     case types.BOTAO_CLICADO_FAILURE: {
-      console.log('Oops! Deu erro =(');
+      toast.error('Ops! Something went wrong!');
       return state;
     }
 
     case types.BOTAO_CLICADO_REQUEST: {
-      console.log('Estou fazendo a requisicao');
+      toast.success('One moment! I am processing.');
       return state;
     }
     default: {

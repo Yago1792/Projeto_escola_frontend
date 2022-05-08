@@ -4,7 +4,7 @@ import { Container } from '../../styles/GlobalStyles';
 function Oi() {
   return (
     <Container>
-      <h1>OIII</h1>
+      <h1>Hello world!</h1>
     </Container>
   );
 }

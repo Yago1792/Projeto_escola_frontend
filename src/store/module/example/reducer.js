@@ -10,7 +10,7 @@ const initialState = {
 export default function (state = initialState, action) {
   switch (action.type) {
     case types.BOTAO_CLICADO_SUCCESS: {
-      toast.success("Yeah! It's worked!");
+      toast.success('Yeah! It worked!');
       const newState = { ...state };
       newState.botaoClicado = !newState.botaoClicado;
       return newState;

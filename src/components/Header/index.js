@@ -20,9 +20,9 @@ export default function Header() {
       <Link to="/hheher">
         <FaSignInAlt size={24} />
       </Link>
-      <p style={{ color: 'white' }}>
+      <span style={{ color: 'white' }}>
         {botaoClicado ? 'Status: Active' : 'Status: Inactive'}
-      </p>
+      </span>
     </Nav>
   );
 }

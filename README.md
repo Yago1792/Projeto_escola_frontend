@@ -68,3 +68,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### __________________________________________________________________________________________________________________________________________________________________________________
+Redux
+ação (ação de request com saga) -> saga -> reducer -> fail ou success -> success (newState ou estado atual, dependendo do que acontecer no reducer) ou reject. (vindo da promisse do saga)

@@ -7,9 +7,9 @@ export const Form = styled.form`
   margin-top: 20px;
 
   label {
-    margin-bottom: 20px;
     display: flex;
     flex-direction: column;
+    margin-bottom: 20px;
   }
 
   input {
@@ -24,4 +24,9 @@ export const Form = styled.form`
       border: 1px solid ${colors.primaryColor};
     }
   }
+`;
+
+export const Small = styled.small`
+  margin-top: 10px;
+  display: block;
 `;

@@ -28,6 +28,12 @@ export default createGlobalStyle`
     padding: 10px 20px;
     border-radius: 5px;
     font-weight: 700;
+    transition: all 300ms;
+  }
+
+  button:hover {
+    background: ${colors.primaryColor};
+    filter: brightness(75%);
   }
 
   a {
@@ -52,14 +58,10 @@ export default createGlobalStyle`
 `;
 
 export const Container = styled.section`
-  max-width: 360px;
+  max-width: 480px;
   background: #fff;
   margin: 30px auto;
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px; ;
 `;

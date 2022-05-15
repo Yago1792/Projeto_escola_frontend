@@ -13,4 +13,17 @@ export const Nav = styled.nav`
     margin: 0 10px 0;
     font-weight: bold;
   }
+
+  div {
+    color: #fff;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 7px;
+  }
+
+  p {
+    color: #fff;
+  }
 `;

@@ -30,5 +30,7 @@ module.exports = {
     'jsx-a11y/anchor-is-valid': 0,
     'default-param-last': 'off',
     'no-console': 0,
+    'react/jsx-no-bind': 'off',
+    'no-unused-vars': 'off',
   },
 };

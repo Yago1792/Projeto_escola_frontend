@@ -30,13 +30,13 @@ export default function Header() {
     history.push('/login');
   }
 
-  function handleDelete(e, id) {
-    e.preventDefault();
+  // function handleDelete(e, id) {
+  //   e.preventDefault();
 
-    dispatch(actions.loginFailure());
+  //   dispatch(actions.loginFailure());
 
-    history.push('/login');
-  }
+  //   history.push('/login');
+  // }
 
   return (
     <Nav>
